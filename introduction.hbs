@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="../assets/images/favicon.ico" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    {{>common/links}}
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/default.min.css"
+    />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
+  </head>
+  <body>
+    <div class="fixed-top">
+    {{> common/navbar }}
+    {{> common/subnav }}
+    </div>
+    <section class="container-xxl my-md-4 bd-layout d-flex bd-container">
+      <aside class="bd-sidebar ">
+        <ul class="list-unstyled mb-0 py-3 pt-md-1 me-3" id="sidebar-ul"></ul>
+      </aside>
+
+      <main class="bd-main order-1 container">
+        <section class="docu-box ">
+          <h1 class="bd-title text-pri" id="content">Introduction</h1>
+          <div class="box-cont">
+            <h5 class="mb-3">Let's get started</h5>
+            <p>
+              Download Bootstrap to get the compiled CSS and JavaScript, source
+              code, or include it with your favorite
+              <code 
+                >https://www.themoviedb.org/authenticate/{REQUEST_TOKEN}</code
+              >
+              package managers like npm, RubyGems, and more
+            </p>
+          </div>
+
+          <pre class="d-flex align-items-center justify-content-between code-container border pre-codex my-5">
+            <code class="codex">https://www.themoviedb.org/authenticate/{REQUEST_TOKEN}</code>
+            <div class="copy-container d-flex align-items-center justify-content-center">
+              <i data-feather="copy"></i>
+            </div>
+          </pre>
+          <h5 class="mb-3">Sub Heading</h5>
+          {{> common/accordion }}
+        </section>
+      </main>
+    </section>
+    {{> common/footer }}
+  </body>
+ {{> common/script}}
+</html>

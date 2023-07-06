@@ -50,7 +50,7 @@ module.exports = {
       },
 
       {
-        test: /\.(png|jpg|jpeg|gif)$/i,
+        test: /\.(png|jpg|jpeg|gif|ico)$/i,
         type: 'asset/resource',
         generator: {
           filename: 'assets/images/[name].[hash].[ext][query]',
@@ -75,25 +75,75 @@ module.exports = {
       filename: 'introduction.html',
     }),
     new HtmlWebpackPlugin({
-      template: './src/borders.hbs',
-      filename: 'borders.html',
+      template: './src/technology.hbs',
+      filename: 'technology.html',
     }),
     new HtmlWebpackPlugin({
-      template: './src/signup.hbs',
-      filename: 'signup.html',
-    }),
-    new HtmlWebpackPlugin({
-      template: './src/reset-password.hbs',
-      filename: 'reset-password.html',
+      template: './src/register.hbs',
+      filename: 'register.html',
     }),
     new HtmlWebpackPlugin({
       template: './src/login.hbs',
       filename: 'login.html',
     }),
     new HtmlWebpackPlugin({
-      template: './src/home.hbs',
-      filename: 'home.html',
+      template: './src/forgotpassword.hbs',
+      filename: 'forgotpassword.html',
     }),
+    new HtmlWebpackPlugin({
+      template: './src/resetpassword.hbs',
+      filename: 'resetpassword.html',
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/getuser.hbs',
+      filename: 'getuser.html',
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/getusers.hbs',
+      filename: 'getusers.html',
+    }),
+   
+    new HtmlWebpackPlugin({
+      template: './src/deleteuser.hbs',
+      filename: 'deleteuser.html',
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/logout.hbs',
+      filename: 'logout.html',
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/refreshusertoken.hbs',
+      filename: 'refreshusertoken.html',
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/createrecipe.hbs',
+      filename: 'createrecipe.html',
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/getrecipes.hbs',
+      filename: 'getrecipes.html',
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/updaterecipe.hbs',
+      filename: 'updaterecipe.html',
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/deleterecipe.hbs',
+      filename: 'deleterecipe.html',
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/deleterecipes.hbs',
+      filename: 'deleterecipes.html',
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/ratelimit.hbs',
+      filename: 'ratelimit.html',
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/isadmin.hbs',
+      filename: 'isadmin.html',
+    }),
+ 
 
     new CopyWebpackPlugin({
       patterns: [
