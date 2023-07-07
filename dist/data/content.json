@@ -1,0 +1,16 @@
+{
+  "title": "Savor the Flavors",
+  "content": "Explore a Vast Collection of Mouthwatering Recipes, Ingredients, and More! Discover a treasure trove of culinary inspiration at your fingertips. Whether you're a seasoned chef or a passionate home cook, our API opens up a world of possibilities to tantalize your taste buds and elevate your cooking game.",
+  "btnone": [
+      {
+          "name": "Get Started",
+          "href": "http://localhost:4000/register"
+      }
+  ],
+  "btntwo": [
+      {
+          "name": "Sign in",
+          "href": "http://localhost:4000"
+      }
+  ]
+}

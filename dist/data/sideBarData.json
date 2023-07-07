@@ -1,0 +1,80 @@
+
+[
+  {
+    "name": "Getting started",
+    "links": [
+      {
+        "name": "Introduction",
+        "href": "../introduction.html"
+      },
+      { "name": "Technology", "href": "../technology.html" }
+      
+    ]
+  },
+  {
+    "name": "Authentication",
+    "links": [
+      {
+        "name": "Register [post]",
+        "href": "../register.html"
+      },
+      { "name": "Login [post]", "href": "../login.html" },
+      {
+        "name": "Forgot Password [post]",
+        "href": "../forgotpassword.html"
+      },
+      { "name": "Reset Password [post]", "href": "../resetpassword.html" }
+     
+      
+    ]
+  },
+  {
+    "name": "User",
+    "links": [
+      {
+        "name": "Get user [get]",
+        "href": "../getuser.html"
+      },
+      { "name": "Get all users [get]", "href": "../getusers.html" },
+      { "name": "Delete user [delete]", "href": "../deleteuser.html" },
+      {
+        "name": "Logout [get]",
+        "href": "../logout.html"
+      },
+      { "name": "Refresh user token [get]", "href": "../refreshusertoken.html" }
+     
+      
+    ]
+  },
+  {
+    "name": "Recipe",
+    "links": [
+      {
+        "name": "Create recipe [post]",
+        "href": "../createrecipe.html"
+      },
+      { "name": "Get recipes [get]", "href": "../getrecipes.html" },
+      {
+        "name": "Update recipe [put]",
+        "href": "../updaterecipe.html"
+      },
+      { "name": "Delete selected recipe [delete]", "href": "../deleterecipe.html" },
+      { "name": "Delete all recipes [delete]", "href": "../deleterecipes.html" }
+     
+     
+      
+    ]
+  },
+  {
+    "name": "Authorization",
+    "links": [
+      {
+        "name": "Rate limiting",
+        "href": "../ratelimit.html"
+      },
+      { "name": "Admin ", "href": "../isadmin.html" }
+          
+    ]
+  }
+  
+]
